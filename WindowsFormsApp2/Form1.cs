@@ -64,7 +64,7 @@ namespace WindowsFormsApp2
                     plungerv += ((k * (gasC+inToM(1) - plungerx) - (air - stp) * plungerA) / pMass) / timescale;
                 // Plunger position is just velocity / 1000 timescale
                     plungerx += plungervo / timescale;
-                    if (plungerx > 0.07)
+                    //if (plungerx > 0.07)
                         //Console.WriteLine("hi");
 
                 if (plungerx >= inToM(3))
